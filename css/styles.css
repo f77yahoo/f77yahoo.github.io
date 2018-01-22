@@ -35,7 +35,7 @@ header nav ul{
   margin: 0 auto;
   width: 180px;
   padding: 0;
-  background-color: rgb(221, 221, 221, 0.4);
+  background-color: rgba(221, 221, 221, 0.4);
 }
 
 header nav ul li{
