@@ -33,7 +33,7 @@ header nav{
 header nav ul{
   overflow: hidden;
   margin: 0 auto;
-  width: 177px;
+  width: 180px;
   padding: 0;
   background: rgb(221, 221, 221, 0.4);
 }
@@ -48,6 +48,10 @@ header nav ul li a{
   color: #fff;
   font-size: 18px;
   text-decoration: none;
+}
+
+header nav ul li.active a{
+  font-weight: bold;
 }
 
 .exhibition-description {
