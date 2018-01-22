@@ -20,6 +20,36 @@ header > .project-title {
   color: #fff;
 }
 
+header > .project-title > h5 {
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+header nav{
+  overflow: hidden;
+}
+
+header nav ul{
+  overflow: hidden;
+  margin: 0 auto;
+  width: 177px;
+  padding: 0;
+  background: rgb(221, 221, 221, 0.4);
+}
+
+header nav ul li{
+  list-style-type: none;
+  float:left;
+  padding: 10px 20px;
+}
+
+header nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .exhibition-description {
   text-align: center;
 }
@@ -46,4 +76,29 @@ footer {
 
 footer .copyright {
   padding: 15px 20px;
+}
+
+.about_image{
+  float: left;
+}
+
+.about_page{
+  margin-top: 10px;
+}
+
+.about_image img{
+  width: 500px;
+}
+
+.about_content{
+  overflow: hidden;
+  padding: 0 25px;
+}
+
+.about_content a{
+  color: #000;
+}
+
+.cv_link{
+  color: #000;
 }
