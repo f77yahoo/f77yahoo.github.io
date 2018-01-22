@@ -1,0 +1,49 @@
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: url('../images/verbatrix-5-mini.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 47%;
+}
+header > .project-title {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.exhibition-description {
+  text-align: center;
+}
+
+.exhibition-description li {
+  list-style-type: none;
+}
+
+.location-map {
+  height: 300px;
+  overflow: hidden;
+}
+
+.gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  background-color: red;
+  color: #fff;
+}
+
+footer .copyright {
+  padding: 15px 20px;
+}
