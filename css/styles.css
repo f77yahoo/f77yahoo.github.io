@@ -5,6 +5,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000;
+}
+
+main{
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
 header {
@@ -57,10 +64,16 @@ header nav ul li.active a{
 
 .exhibition-description {
   text-align: center;
+  margin: 0;
+  padding: 15px 0;
 }
 
 .exhibition-description li {
   list-style-type: none;
+}
+
+.exhibition-description li a{
+  color: #fff;
 }
 
 .location-map {
@@ -81,6 +94,7 @@ footer {
 
 footer .copyright {
   padding: 15px 20px;
+  margin: 0;
 }
 
 .about_image{
